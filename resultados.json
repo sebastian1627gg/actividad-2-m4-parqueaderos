@@ -1,0 +1,101 @@
+{
+  "_nota": "Valores reportados en Actividad2_M4_Problema_Parqueaderos.docx. Al ejecutar analisis.py este archivo se regenera con el detalle completo.",
+  "semilla": 20261124,
+  "warmup": {"L": 52, "nivel": 14.44, "t_min": 246},
+  "replicas": {
+    "n_estab": 555,
+    "n_err": 230,
+    "n_form": 207,
+    "N": 600,
+    "s0": 5.30,
+    "x0": 14.48,
+    "final": 14.48
+  },
+  "P1": {
+    "tabla": {
+      "1": {"TA": [3.580, 3.552, 3.608], "Wq": [13.26, 12.59, 13.93], "W": [16.84, 16.16, 17.53], "rho": [0.754, null, null], "L": [3.59, null, null], "n": [155.9, null, null], "P5": [null, null, null], "TA_tipo": [0.99, 3.02, 3.99, 5.95]},
+      "2": {"TA": [3.582, 3.553, 3.612], "Wq": [12.89, 12.20, 13.58], "W": [16.47, 15.76, 17.18], "rho": [0.751, null, null], "L": [3.51, null, null], "n": [154.8, null, null], "P5": [null, null, null], "TA_tipo": [1.00, 3.00, 3.96, 5.95]},
+      "3": {"TA": [3.622, 3.594, 3.651], "Wq": [13.32, 12.59, 14.05], "W": [16.94, 16.19, 17.69], "rho": [0.759, null, null], "L": [3.62, null, null], "n": [155.2, null, null], "P5": [null, null, null], "TA_tipo": [1.00, 3.05, 3.99, 6.07]}
+    },
+    "F": 2.64,
+    "p": 0.071,
+    "KW_p": 0.125,
+    "menor": 1,
+    "mayor": 3
+  },
+  "P2": {
+    "por_cajero": [
+      [39.5, 30.9, 42.7, 42.9],
+      [38.5, 31.0, 42.9, 42.4],
+      [39.1, 30.7, 42.9, 42.4]
+    ],
+    "total": [
+      [117.1, 116.2, 118.1],
+      [92.5, 91.7, 93.4],
+      [128.6, 127.6, 129.5],
+      [127.7, 126.8, 128.5]
+    ],
+    "total_dia": [465.9, 463.9, 467.9],
+    "prom_cajero_tipo": [39.0, 30.8, 42.9, 42.6],
+    "pct": [0.251, 0.199, 0.276, 0.274]
+  },
+  "P3": [
+    {"nombre": "E0: 3 cajeros (actual)", "c": 3, "Wq": [15.05, 14.47, 15.63], "P10": [0.474, null, null], "rho": [0.778, null, null], "L": [4.14, null, null], "estado": "No cumple"},
+    {"nombre": "E1: 4 cajeros", "c": 4, "Wq": [6.43, 6.26, 6.59], "P10": [0.241, null, null], "rho": [0.587, null, null], "L": [1.66, null, null], "estado": "No cumple"},
+    {"nombre": "E2: 5 cajeros", "c": 5, "Wq": [4.11, 4.02, 4.21], "P10": [0.151, null, null], "rho": [0.470, null, null], "L": [1.02, null, null], "estado": "Marginal"},
+    {"nombre": "E3: 3 cajeros + pago ágil", "c": 3, "Wq": [5.95, 5.77, 6.12], "P10": [0.220, null, null], "rho": [0.629, null, null], "L": [1.95, null, null], "estado": "No cumple"},
+    {"nombre": "E4: 4 cajeros + pago ágil", "c": 4, "Wq": [3.31, 3.23, 3.39], "P10": [0.113, null, null], "rho": [0.476, null, null], "L": [1.03, null, null], "estado": "Cumple"}
+  ],
+  "ver": {
+    "lindley_max": 6.4e-13,
+    "fifo_ok": true,
+    "mm1": {"sim": [0.500, 1.497, 0.501, 0.333], "teo": [0.500, 1.500, 0.500, 0.333]},
+    "ks_p": [0.49, 0.38, 0.90, 0.07],
+    "chi_p": 0.077,
+    "obs_pct": [0.251, 0.199, 0.276, 0.274],
+    "little": {"L": 3.57, "lamW": 3.61},
+    "rho_teo": 0.774,
+    "rho_sim": [0.776, null, null],
+    "EA": 4.65,
+    "ES": 3.60
+  },
+  "cal": [
+    {"tipo": "Rápido", "serv_esp": 1.00, "serv_sim": 1.000, "lleg_esp": 3.00, "lleg_sim": 2.992, "p_esp": 0.250, "p_sim": 0.251},
+    {"tipo": "Normal", "serv_esp": 3.00, "serv_sim": 3.021, "lleg_esp": 3.00, "lleg_sim": 2.980, "p_esp": 0.200, "p_sim": 0.199},
+    {"tipo": "Lento", "serv_esp": 4.00, "serv_sim": 3.983, "lleg_esp": 5.00, "lleg_sim": 4.947, "p_esp": 0.275, "p_sim": 0.276},
+    {"tipo": "Muy lento", "serv_esp": 6.00, "serv_sim": 5.988, "lleg_esp": 7.00, "lleg_sim": 6.907, "p_esp": 0.275, "p_sim": 0.274}
+  ],
+  "sens": {
+    "base": 15.05,
+    "items": [
+      {"par": "Servicio – Muy lento (+10 %)", "mas": 19.15, "delta": 4.10, "comentario": "Parámetro más sensible"},
+      {"par": "Mezcla 35 % lento / 20 % muy lento", "valor": 13.9},
+      {"par": "Mezcla 20 % lento / 35 % muy lento", "valor": 16.5}
+    ]
+  },
+  "val": {
+    "ca2": 1.26,
+    "cs2": 1.52,
+    "rho": 0.774,
+    "kingman": 17.2,
+    "wq_largo": [16.4, 15.0, 17.8],
+    "wq_dia_sin": [13.16, 12.76, 13.55],
+    "wq_dia_con": [14.36, 13.87, 14.85]
+  },
+  "P5": {
+    "antes": {"m": 10.23, "s": 2.89, "fin": null},
+    "despues": {"m": 14.13, "s": 0.19, "fin": null},
+    "global": {
+      "TA": {"antes": [3.595, 3.579, 3.611], "despues": [3.585, 3.565, 3.605]},
+      "Wq": {"antes": [13.16, 12.76, 13.55], "despues": [14.36, 13.87, 14.85]},
+      "W": {"antes": [16.75, 16.35, 17.15], "despues": [17.94, 17.45, 18.44]},
+      "rho": {"antes": 0.754, "despues": 0.776},
+      "L": {"antes": [3.57, 3.48, 3.67], "despues": [3.97, 3.85, 4.09]}
+    },
+    "tabla": {
+      "1": {"Wq": {"antes": [13.26, 12.59, 13.93], "despues": [14.61, 13.74, 15.48]}},
+      "2": {"Wq": {"antes": [12.89, 12.20, 13.58], "despues": [14.02, 13.16, 14.88]}},
+      "3": {"Wq": {"antes": [13.32, 12.59, 14.05], "despues": [14.44, 13.55, 15.34]}}
+    }
+  }
+}
