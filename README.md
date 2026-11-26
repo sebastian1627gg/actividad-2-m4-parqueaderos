@@ -1,5 +1,7 @@
 # Actividad didáctica 2-M4 — Solución de un problema de parqueaderos
 
+**Repositorio público:** https://github.com/sebastian1627gg/actividad-2-m4-parqueaderos
+
 Simulación de eventos discretos de los cajeros de pago del centro comercial
 **Supercentro**. Cada salida tiene tres cajeros con filas independientes, sin
 cambio de fila ni deserción. Cada cajero se modela como un sistema **M/M/1** y se
@@ -64,6 +66,6 @@ réplicas.
 
 1. Rellenar en el Word los marcadores de nombre de los dos estudiantes y del docente, y actualizar el índice.
 2. Renombrar el informe a `Apellido_Nombre_problemaParqueadero.doc`.
-3. Publicar este repositorio en GitHub y compartir el enlace.
+3. Compartir el enlace del repositorio: https://github.com/sebastian1627gg/actividad-2-m4-parqueaderos.
 4. Grabar el video de sustentación (problema, modelo, simulación, resultados y conclusiones).
 5. Subir todo a la plataforma antes del domingo a las 23:59.
