@@ -18,7 +18,6 @@ estado transitorio.
 | `fig/` | 11 figuras PNG generadas por el análisis (una por cada gráfica citada en el informe). |
 | `resultados.json` | Resumen de los resultados del informe. Se regenera automáticamente al ejecutar `analisis.py`. |
 | `Actividad2_M4_Problema_Parqueaderos.docx` | Informe con introducción, metodología, resultados, conclusiones, referencias y anexo de código. |
-| `tarea.pdf` | Enunciado de la actividad y rúbrica de evaluación. |
 
 ## Requisitos
 
